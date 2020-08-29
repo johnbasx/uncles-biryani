@@ -26,7 +26,7 @@ function App() {
 
           <a
             className='App-link'
-            href='https://wa.me/+917085054073'
+            href='https://wa.me/c/917085054073'
             target='_blank'
             rel='noopener noreferrer'
           >
