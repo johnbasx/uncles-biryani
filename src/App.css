@@ -37,6 +37,21 @@
   }
 }
 
+.heading-class {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.heading {
+  font-size: 3rem;
+}
+
+.heading-tm {
+  font-size: 0.7rem;
+  margin-left: 0.3rem;
+  margin-top: -2rem;
+}
+
 .social-links {
   margin: 0;
   padding: 0;
@@ -44,6 +59,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.phone {
+  margin-top: 2rem;
+  color: #1bc269;
+}
+
+.phone:hover,
+.phone:active {
+  color: #353535;
+}
+
+.phone-text {
+  font-size: 1rem;
 }
 
 .social-items {

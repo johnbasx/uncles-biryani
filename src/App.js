@@ -8,9 +8,11 @@ function App() {
     <div className='App'>
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
-        <h1>
-          Uncle's <code>Biryani</code>
-        </h1>
+        <div className='heading-class'>
+          <h1 className='heading'>Uncle's Biryani</h1>
+          <span className='heading-tm'>TM</span>
+        </div>
+
         <p>Sorry, website is under development</p>
         <div className='social-links'>
           <a
@@ -31,6 +33,10 @@ function App() {
             <FaWhatsapp className='social-items' />
           </a>
         </div>
+        <a className='phone' href='tel:+91-7085054073'>
+          <strong>+91-7085054073</strong>
+        </a>
+        <p className='phone-text'>Contact us for orders</p>
       </header>
     </div>
   );
