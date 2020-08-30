@@ -26,6 +26,12 @@
 
 .App-link {
   color: #ffffff;
+  transition: 450ms;
+}
+
+.App-link:hover {
+  transform: scale(1.18);
+  color: #353535;
 }
 
 @keyframes App-logo-spin {
@@ -64,11 +70,13 @@
 .phone {
   margin-top: 2rem;
   color: #1bc269;
+  transition: 450ms;
 }
 
 .phone:hover,
 .phone:active {
   color: #353535;
+  transform: scale(1.18);
 }
 
 .phone-text {
@@ -77,8 +85,4 @@
 
 .social-items {
   padding: 0.3rem;
-}
-
-.social-items:hover {
-  color: #242424;
 }
